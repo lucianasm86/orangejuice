@@ -10,15 +10,14 @@
         <meta name="author" content="creator of the website">
         <!-- Description of the Website -->
         <meta name="description" content="content of the website">
-        <title><!--Title your webpage here--></title>
+        <title>Orange Juice</title>
         <!-- Favorite Icon -->
         <link rel="shortcut icon" href="https://www.oasis-botanical.ca/wp-content/uploads/2017/02/orange-web.jpg">
         <!-- Font Awesome - For Icons -->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
         <!-- Google Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Petit+Formal+Script|Lora">
-    	<!-- The href in the link tag below contains the relative file path leading to our main.css stylesheet. From this document, our index.html, the browser knows to look for something called "css" and then to go inside of that folder and look for something called "main.css" -->
-        <!-- Custom CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Palanquin" rel="stylesheet">
+		<!-- CSS -->
 		<link rel="stylesheet" href="css/main.css">
 		<!-- Animate CSS -->
 		<link rel="stylesheet" href="css/animate.css">
@@ -29,59 +28,67 @@
 	</head>
 
 	<body>
-		<!-- TOP SECTION - NAVIGATION -->
-		<div class="navigation">
-			<ul>
-				<li>
-					<img class="logo" src="img/orangelogo.png" alt="orange juice logo">
-				</li>
-				<li>
-					<a href="#"><span>orange</span>juice&#8482;</a>
-				</li>
-				<li>
-					<a href="#">HOME</a>
-				</li>
-				<li>
-					<a href="#">ABOUT</a>
-				</li>
-				<li>
-					<a href="#">CASE STUDIES</a>
-				</li>
-				<li>
-					<a href="#">BLOG</a>
-				</li>
-				<li>
-					<a href="#">CONTACT</a>
-				</li>
-			</ul>
-		</div>
-		<!-- MID SECTION - SEARCH BOX -->
-		<div class="searchbox">
-			<input autofocus="" type="text" placeholder="SEARCH"><i class="fas fa-search"></i></input>
-			<img src="img/orange.png" alt="orange"></img>
-			<div class="buttons">
-				<button>GET A QUOTE</button>
-				<button>VIEW CASE STUDIES</button>
+		<!-- Header - Top part -->
+		<header>
+			<div class="nav">
+				<div class="container">
+				<div class="pull-left">
+					<img src="img/logo.png" width="272px" height="54px" alt="logo">
+				</div>
+				<nav class="pull-right">
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">CASE STUDIES</a></li>
+						<li><a href="#">BLOG</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+				</nav>
 			</div>
-			<div class="paragraph">
-				<p><span>orange</span>juice&#8482; uses only the very <br> freshest design fruits & veggies <br> for your <span>web</span> & <span>app</span> designs.</p>
+		</header>
+		<!-- End of Header - Top part -->
+		<!-- Mid Section - Image -->
+		<section>
+			<div class="orange">
+				<div class="pull-left">
+					<img src="img/orange.png" alt="orange">
+				</div>
 			</div>
+			<!-- Search box -->
+			<div class="search">
+				<div class="pull-right">
+				<input class="searchbox" type="text" placeholder="SEARCH" name="search">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			    </div>
+			</div>
+		</section>
+		<!-- Paragraph	 -->
+		<article class="paragraph">
+			<div class="pull-right">
+				<p><span>orange</span>juice&#8482; uses only the very <br> freshest design fruits & veggies <br> for your <span class="color">web</span> & <span class="color">app</span> designs.</p>
+			</div>
+		</article>
+		<!-- Buttons -->
+		<div class="pull-right">
+			<a href="#" class="button-blue">GET A QUOTE</a>
+			<a href="#" class="button-orange">VIEW CASE STUDIES</a>
 		</div>
-		<!-- BOTTOM SECTION -->
-		<div class="bottom">
-			<ul>
-				<li>
-					<a href="#"><i class="fab fa-facebook-f"></i></a>
-				</li>
-				<li>
-					<a href="#"><i class="fab fa-instagram"></i></a>
-				</li>
-				<li>
-					<a href="#"><i class="fab fa-twitter"></i></a>
-				</li>
-			</ul>
-		</div>
+		<!-- Footer -->
+		<footer>
+			<div class="socialmedia">
+				<ul>
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				</ul>
+			</div>
+			</div>
+		</footer>
+
+
+
 
 	</body>
+
 
 </html>
