@@ -19,6 +19,13 @@
 .pull-left {
     float: left;
 }
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px;
+}
 /* Generic CSS ends */
 /* Header - Top part */
 .nav {
@@ -127,8 +134,21 @@ div.pull-right a {
 /* Footer */
 footer {
     background-color: #8ecaca;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
 }
-div.socialmedia li a {
-    color: #ffffff;
+div.footer li {
     text-decoration: none;
+    display: inline-block;
+    padding: 30px 30px 40px 20px;
+}
+.socialmedia a {
+    color: #ffffff;
+    display: inline;
+    font-size: 30px;
 }
